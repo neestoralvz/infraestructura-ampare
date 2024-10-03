@@ -9,7 +9,7 @@
     "lint": "next lint",
     "deploy": "vercel --prod",
     "commit": "git add . && git commit -m 'Deploy to Vercel'",
-    "bnd": "npm i && npm run build && npm run deploy && npm run commit && git push --force origin main"
+    "bnd": "npm i && npm run build && npm run commit && git push --force origin main&& npm run deploy"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.0.1",
@@ -26,7 +26,7 @@
     "framer-motion": "^11.11.0",
     "highlight.js": "^11.10.0",
     "lucide-react": "^0.446.0",
-    "next": "14.2.13",
+    "next": "^14.2.13",
     "next-mdx-remote": "^5.0.0",
     "next-themes": "^0.3.0",
     "raw-loader": "^4.0.2",
@@ -40,8 +40,9 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/next": "^8.0.7",
+    "@types/node": "^20.16.10",
+    "@types/react": "^18.3.11",
     "@types/react-dom": "^18",
     "@types/react-syntax-highlighter": "^15.5.13",
     "eslint": "^8",
