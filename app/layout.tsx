@@ -17,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Plantilla Proyectos",
-  description: "Crear una plantilla base para proyectos de desarrollo de software frontend, utilizando shadcn/ui como la herramienta principal para la interfaz de usuario. La plantilla estará lista para ser desplegada en Vercel, con una página de índice preconfigurada.",
+  title: "Restaurante Cultural Xalapa", // Actualizado el título
+  description: "El objetivo principal es abrir un restaurante en la planta baja de una casa colonial en Xalapa, combinando un ambiente gastronómico con un espacio cultural.", // Descripción permanece igual
 };
 
 export default function RootLayout({

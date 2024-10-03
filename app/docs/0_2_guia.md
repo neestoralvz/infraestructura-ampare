@@ -32,15 +32,13 @@ Esta sección contiene una serie de prompts que puedes utilizar para interactuar
     </adaptive_proposals>
 
     <output_format>
-      Entrega el resultado dentro de un snippet en formato markdown con la siguiente estructura:
-      ```
+      Entrega el resultado en formato markdown con la siguiente estructura:
       # Idea del Proyecto
       ## Propósito
       ## Visión
       ## Problema o Necesidad
       ## Beneficiarios
       ## Solución Ideal
-      ```
     </output_format>
 
     <guidelines>

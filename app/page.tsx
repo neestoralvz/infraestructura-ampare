@@ -21,8 +21,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 py-12 px-4 sm:px-6 lg:px-8"> {/* Contenedor principal con fondo degradado */}
       <div className="max-w-3xl mx-auto"> {/* Contenedor centrado */}
-        <h1 className="text-4xl font-bold text-center text-gray-900 mb-8">Plantilla Proyectos</h1> {/* Título de la página */}
-        <p className="text-center text-gray-700 mb-8">Esta es una plantilla para gestionar y documentar proyectos de manera eficiente.</p> {/* Descripción del proyecto */}
+        <h1 className="text-4xl font-bold text-center text-gray-900 mb-8">Restaurante Cultural Xalapa</h1> {/* Título de la página */}
+        <p className="text-center text-gray-700 mb-8">El objetivo principal es abrir un restaurante en la planta baja de una casa colonial en Xalapa, combinando un ambiente gastronómico con un espacio cultural.</p> {/* Descripción del proyecto */}
         
         <div className="grid gap-6 md:grid-cols-2"> {/* Diseño de cuadrícula para tarjetas de recursos */}
           {/* Tarjeta de recurso README eliminada */}
